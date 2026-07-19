@@ -80,17 +80,41 @@ A Flutter-based mobile application developed as part of a Flutter UI Development
 
 # 📂 Project Structure
 
-The project follows a modular folder structure for better readability, maintainability, and code organization.
+The project follows a modular architecture to improve code organization, readability, and maintainability.
 
-| Folder/File | Description |
-|-------------|-------------|
-| `main.dart` | Entry point of the Flutter application |
-| `models/` | Contains data models such as `task.dart` |
-| `screens/` | Contains all application screens (Login, Register, Home, Profile, Settings, etc.) |
-| `theme/` | Global color palette and application theme |
-| `widgets/` | Reusable UI widgets like buttons, cards, and text fields |
-| `utils/` | Application constants and helper values |
-| `assets/` | Images, icons, and fonts (if included) |
+```text
+lib/
+│
+├── main.dart                     # Application entry point
+│
+├── models/
+│   └── task.dart                 # Task model used to represent task data
+│
+├── screens/
+│   ├── splash_screen.dart        # Initial splash screen
+│   ├── login_screen.dart         # User login interface
+│   ├── register_screen.dart      # User registration interface
+│   ├── home_screen.dart          # Main dashboard/home page
+│   ├── add_task_screen.dart      # UI for adding a new task
+│   ├── profile_screen.dart       # User profile interface
+│   └── settings_screen.dart      # Application settings page
+│
+├── theme/
+│   ├── app_colors.dart           # Centralized color definitions
+│   └── app_theme.dart            # Global application theme
+│
+├── widgets/
+│   ├── custom_button.dart        # Reusable button widget
+│   ├── custom_text_field.dart    # Reusable text field widget
+│   ├── progress_card.dart        # Dashboard progress card
+│   ├── quick_action_card.dart    # Quick action cards
+│   └── task_card.dart            # Individual task display card
+│
+├── utils/
+│   └── constants.dart            # Text constants and reusable values
+│
+└── assets/                       # Images, icons, and fonts (if included)
+```
 
 ### Screen Modules
 
@@ -193,34 +217,6 @@ flutter run
 - Add Task Screen
 - Profile Screen
 - Settings Screen
-
----
-
-# 📸 Screenshots
-
-You can add screenshots here after uploading them to the repository.
-
-Example:
-
-```
-screenshots/
-    login.png
-    register.png
-    home.png
-    add_task.png
-    profile.png
-    settings.png
-```
-
-```markdown
-## Login Screen
-
-![Login](screenshots/login.png)
-
-## Home Screen
-
-![Home](screenshots/home.png)
-```
 
 ---
 

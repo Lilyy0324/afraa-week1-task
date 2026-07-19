@@ -28,6 +28,7 @@ A Flutter-based UI application developed as part of a Flutter UI Development Int
 
 The project follows a modular architecture to improve code organization, readability, and maintainability.
 
+```text
 lib/
 │
 ├── main.dart                     # Application entry point
@@ -58,7 +59,8 @@ lib/
 ├── utils/
 │   └── constants.dart            # Text constants and reusable values
 │
-└── assets/                       # Images, icons, fonts (if included)
+└── assets/                       # Images, icons, and fonts (if included)
+```
 
 🎯 Project Objective
 
@@ -130,8 +132,8 @@ The primary objectives include:
 - Reusable Widgets
 
 🛠️ Technologies Used
- __________________________________________________________________
-|    Technology    |              Purpose                          |
+
+| Technology       | Purpose                                       |
 |------------------|-----------------------------------------------|
 | Flutter          | Cross-platform mobile application development |
 | Dart             | Programming language                          |

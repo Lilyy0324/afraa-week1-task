@@ -154,19 +154,31 @@ Before running the project, ensure you have the following installed:
 - Android Emulator or Physical Android Device
 - Git
 
-# Installation
+🚀 Getting Started
 
 ### Clone the repository
-git clone https://github.com/your-username/afraa-week1-task.git
+
+```bash
+git clone https://github.com/<your-github-username>/afraa-week1-task.git
+```
 
 ### Navigate to the project
+
+```bash
 cd afraa-week1-task
+```
 
 ### Install dependencies
+
+```bash
 flutter pub get
+```
 
 ### Run the application
+
+```bash
 flutter run
+```
 
 📱 Screens Included
 

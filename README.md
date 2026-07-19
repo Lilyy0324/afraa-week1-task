@@ -138,7 +138,6 @@ The primary objectives include:
 | Material Design  | User Interface components                     |
 | VS Code          | Development environment                       |
 | Android Emulator | Application testing                           |
-| _________________|______________________________________________ |
 
 🚀 Getting Started
 
@@ -156,10 +155,10 @@ Before running the project, ensure you have the following installed:
 # Installation
 
 ### Clone the repository
-git clone https://github.com/your-username/flutter-ui-project.git
+git clone https://github.com/your-username/afraa-week1-task.git
 
 ### Navigate to the project
-cd flutter-ui-project
+cd afraa-week1-task
 
 ### Install dependencies
 flutter pub get

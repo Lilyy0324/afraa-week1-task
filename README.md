@@ -1,6 +1,6 @@
 # 📱 Flutter UI Development Project
 
-A Flutter-based mobile application developed as part of a Flutter UI Development Internship. This project focuses on designing a clean, responsive, and user-friendly interface while demonstrating Flutter fundamentals, reusable widgets, screen navigation, and form validation.
+A Flutter-based UI application developed as part of a Flutter UI Development Internship. This project focuses on designing a clean, responsive, and user-friendly interface while demonstrating Flutter fundamentals, reusable widgets, screen navigation, and form validation.
 
 > **Note:** This project primarily showcases UI implementation and Flutter development concepts. Some advanced functionalities such as backend integration, persistent storage, and complete business logic are not included in the current version.
 
